@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TuReserva
+namespace TuReserva.Pages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MainPage : ContentPage
+	public partial class Login : ContentPage
 	{
-		public MainPage ()
+		public Login ()
 		{
 			InitializeComponent ();
 		}
